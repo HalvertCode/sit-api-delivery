@@ -5,6 +5,8 @@ import java.util.List;
 import java.util.Map;
 import org.springframework.stereotype.Service;
 import com.delivery.apidelivery.entities.Order;
+
+@Service
 public class OrderService {
     private Map<Integer, Order> orders = new HashMap<>();
     private int nextId = 1;
